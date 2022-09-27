@@ -1,11 +1,8 @@
 :root {
   --primary-text-color: #333333;
   --title-text-color: #212121;
-  --accent-color: #3c9b3c; 
-  --primary-bg-color: #ffffff;
-  /* --accent-bg-color: linear-gradient(to bottom, rgb(21, 151, 190) 50%, rgb(218, 221, 26) 50%); */
-  /* --accent-bg-color: linear-gradient(rgb(21, 151, 190) 50%, rgb(218, 221, 26) 50%); */
-  /* --accent-bg-color: rgb(14, 90, 48); */
+  --accent-bg-color: #38190d; 
+  --primary-bg-color: #ffffff; 
 }
 
 body {
@@ -182,9 +179,7 @@ p {
 
 /* sidebar section */
 .sidebar-section {
-  /* background-image: linear-gradient(to bottom, rgb(21, 151, 190) 50%, rgb(218, 221, 26) 50%); */
-  /* background-image: linear-gradient(to bottom, rgb(21, 151, 190), rgb(218, 221, 26)); */
-  background-color: #24375a;
+  background-color: var(--accent-bg-color);
   width: 800px;
   padding: 36px;
   color: var(--primary-bg-color);
